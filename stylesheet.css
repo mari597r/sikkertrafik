@@ -1,0 +1,239 @@
+/*
+font-family: 'Play', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Marvel', sans-serif;
+*/
+
+
+#logo img {
+    position: fixed;
+    top: 3vh;
+    left: 5vw;
+    height: 40px;
+}
+
+body {
+    margin: auto;
+    background-color: white;
+}
+
+#bodycontainer{
+/*    margin: 4vw 14vw 14vw 14vw;*/
+}
+
+#indledning{
+    margin: 0 150px;
+}
+
+#indledning p{
+    font-size: 1.6rem;
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+
+p {
+    font-family: sans-serif;
+    margin: auto;
+    color: #525252;
+}
+
+
+h1 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    color: #525252;
+}
+
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+    color: #525252;
+}
+
+
+/*---------------ACCENT FARVER----------------*/
+
+
+.light {
+    background-color: #EAEAEA;
+    margin: 0 auto;
+}
+
+
+.dark {
+    background-color: #414B5A;
+    ;
+}
+
+/*--------------NAVIGATIONS MENU--------------*/
+
+header {
+    background-color: #28292f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    margin-right: 10vw;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: #28292f;
+    overflow: hidden;
+    height: 88px;
+
+}
+
+
+
+li a {
+    font-family: 'Play', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    float: right;
+    color: #d8d8d8;
+    display: block;
+    text-align: center;
+    padding: 34px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #373D46;
+    margin: auto;
+    color: white;
+}
+
+li a:active {
+    color: white;
+}
+
+/*--------------SPLASH--------------*/
+
+#splash img {
+    width: 100%;
+    margin-top: 88px;
+}
+
+
+/*--------------VIDEO--------------*/
+
+#video {
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+video{
+    width: 60%;
+    padding: 50px 0;
+
+}
+
+/*-------STYLING AF INFO BAR OG PIECHART-------*/
+
+#info1 {}
+
+#info2 {}
+
+
+/*--------------BAR--------------*/
+
+#barcontainer {
+    width: 500px;
+    font-size: 10px;
+    font-family: arial;
+
+}
+
+#barchart {
+    border: 10px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+
+}
+
+.lines {
+    stroke: #333;
+}
+
+.bar1 {
+    stroke: #52c170;
+    stroke-width: 12;
+
+}
+
+.bar2 {
+    stroke: #364a3b;
+    stroke-width: 15;
+}
+
+#bartxt {
+    padding: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 600px;
+
+}
+
+/*--------------PIE--------------*/
+
+#piecontainer {
+    width: 400px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+
+#piechart {
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    background: #80d3ff;
+}
+
+.pie1 {
+    stroke: #aaffde;
+    fill: none;
+    stroke-width: 100;
+    stroke-dasharray: 30 calc(100*22/7);
+    stroke-dashoffset: 0;
+
+}
+
+.pie2 {
+    stroke: #487966;
+    fill: none;
+    stroke-width: 100;
+    stroke-dasharray: 30 calc(100*22/7);
+    stroke-dashoffset: -30;
+
+}
+
+
+#pietxt {
+    padding: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 600px;
+}
+
+/*--------------MAP--------------*/
+
+
+#map img {
+    width: 600px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}

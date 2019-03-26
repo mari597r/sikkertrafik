@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rådet For Sikker Trafik</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Marvel|Play:700|Space+Mono" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">VIDEO PORTFOLIO</a></li>
+                <li><a href="index.html">DEN RETTE VEJ</a></li>
+            </ul>
+        </nav>
+        <div id="logo"><img src="billeder/rfstlogo.PNG"></div>
+    </header>
+
+    <div id="splash">
+            <img src="billeder/birna_splash.png">
+            <div id="splashtxt"></div>
+        </div>
+
+    <div id="bodycontainer">
+
+        <div id="indledning">
+            <h1>Den rette vej</h1>
+            <p>Rådet for Sikker Trafik og Ældresagen vil gerne reducere antallet af dødsulykker og alvorlige skader i trafikken blandt kategorien 65+ cykelister. Kampagnen henvender sig også til andre, som synes at trafikken i byen kan blive for meget, og som foretrækker en mere rolig cykelrute. <br>
+            <br>
+            Antallet af personskader fordeler sig meget forskelligt mellem aldersgrupperne, men det højeste antal dræbte, er blandt de ældste, som samtidig er den aldersgruppe der cykler mindst.<br> Det vil vi gerne lave om på.</p>
+        </div>
+
+
+        <div id="video" class="light">
+           <video width="1000" controls>
+            <source src="videoer/DenRetteVej.mp4" type="video/mp4">
+              <source src="videoer/DenRetteVej.ogg" type="video/ogg">
+              </video>
+        </div>
+
+        <div id="info1">
+            <h2>Aldersfordeling - dræbte og tilskadekomne cyklister</h2>
+            <div id="barcontainer">
+                <svg id="barchart" viewbox="0 0 300 250">
+                    <g class="bgr">
+                        <!--     Venstre linje op-->
+                        <line class="lines" x1="20" y1="223" x2="20" y2="20" />
+
+
+                        <line class="lines" x1="20" y1="20" x2="160" y2="20" />
+                        <line class="lines" x1="20" y1="63" x2="160" y2="63" />
+                        <line class="lines" x1="20" y1="103" x2="160" y2="103" />
+                        <line class="lines" x1="20" y1="143" x2="160" y2="143" />
+                        <line class="lines" x1="20" y1="183" x2="160" y2="183" />
+                        <line class="lines" x1="20" y1="223" x2="160" y2="223" />
+                        <text x="10" y="223">0</text>
+                        <text x="3" y="183">100</text>
+                        <text x="2" y="143">200</text>
+                        <text x="2" y="103">300</text>
+                        <text x="2" y="63">400</text>
+                        <text x="2" y="23">500</text>
+                        <text id="info" x=150 y="100">value</text>
+                    </g>
+                    <g class="bars">
+                        <line class="bar1" x1="40" y1="223" x2="40" y2="40" />
+                        <line class="bar2" x1="60" y1="223" x2="60" y2="80" />
+                        <line class="bar1" x1="100" y1="223" x2="100" y2="30" />
+                        <line class="bar2" x1="120" y1="223" x2="120" y2="30" />
+                        <text x="30" y="233">65-74 år</text>
+                        <text x="96" y="233">75+ år</text>
+                    </g>
+                </svg>
+            </div>
+
+
+            <div id="bartxt">
+                <p>Antallet af personskader fordeler sig meget forskelligt mellem aldersgrupperne.
+
+                    Det højeste antal dræbte er blandt de ældste på 75+, som samtidig er den aldersgruppe, der cykler mindst. Årsagen til det høje antal dræbte ældre cyklister er blandt andet nedsat reaktionstid samt en øget skrøbelighed, som gør skaderne værre, hvis der sker en ulykke.
+
+                    Der er flest tilskadekomne blandt cyklister i alderen 25-64 år. Det er også den gruppe, der cykler mest - og fx pendler til og fra studie og arbejde i myldretiden..</p>
+            </div>
+        </div>
+
+        <div id="info2">
+            <div id="piecontainer">
+
+                <svg id="piechart" viewbox="0 0 100 100">
+                    <circle class="pie1" r="50" cx="50" cy="50" />
+                    <circle class="pie2" r="50" cx="50" cy="50" />
+
+
+                </svg>
+
+
+            </div>
+            <div id="pietxt">
+                <h2>Lille overskrift her</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum et recusandae nam, reiciendis optio accusantium hic, adipisci possimus non distinctio consectetur voluptatum voluptate pariatur rem! Culpa dolorem accusamus, quibusdam sit! ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptas, beatae. Non repudiandae possimus aut libero rem earum cum inventore consectetur suscipit facere est, perferendis vitae, deleniti architecto ad quasi.</p>
+            </div>
+        </div>
+
+        <div id="interactive" class="dark">
+            <div id="search">
+                <div id="searchgroup">
+                    <label></label>
+                    <input type="text" placeholder="Skriv adresse her">
+                    <div class="search">
+                        <input type="submit" value="søg">
+                    </div>
+                </div>
+            </div>
+            <div id="map"><img src="billeder/rettevejmap.PNG" alt="kort over stier"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
